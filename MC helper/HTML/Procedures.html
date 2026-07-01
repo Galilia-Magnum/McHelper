@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Procedures</title>
+<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="../js/JAVA.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <nav>
+			<div class="titel">
+			<h1>MC helper</h1>
+				</div>
+			<a href="Index.html">Home</a>
+            <a href="New.html">New</a>
+			<a href="Planned-update.html">Planned updates</a>
+        </nav>
+		<div class="profile">
+			<a href="Dashboard.html"> Manager test</a>
+</div>
+    </div>
+    <div class="page-title">
+        <h1>Procedures</h1>
+        <p>Alle procedures</p>
+    </div>
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <button class="dropdown-btn">Procedures Keuken</button>
+            <div class="dropdown-content">
+					       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Grill</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+								       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures FCN</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+					       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Initiator</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+					       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Finishen</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+		        </div>
+		         </div>
+        <div class="dropdown">
+            <button class="dropdown-btn">Procedures Service</button>
+            <div class="dropdown-content">
+									       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Sundea Flurry en Milkshake</button>
+            <div class="dropdown-content">
+                <p>
+					De Sundea's en Flurry's moeten <strong>Glad</strong> en <strong>Roomig</strong> zijn <br>
+					De Sundea's en Flurry's moeten <strong>Ijs koud</strong> zijn <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+													       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Dranken</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+													       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Delivery</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+													       <div class="dropdown">
+            <button class="dropdown-btnsmll">Procedures Koelkast</button>
+            <div class="dropdown-content">
+                <p>
+					1. <br>
+                    2. <br>
+                    3. <br>
+                </p>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-btn">Procedures Drive</button>
+            <div class="dropdown-content">
+                <p>
+      				1. <br>
+                    2. <br>
+                    3. <br>
+                    4. <br>
+					5. <br>
+                </p>
+            </div>
+        </div>
+		       <div class="dropdown">
+            <button class="dropdown-btn">Procedures Friet station</button>
+            <div class="dropdown-content">
+                <p>
+      				1. <br>
+                    2. <br>
+                    3. <br>
+                    4. <br>
+					5. <br>
+                </p>
+            </div>
+        </div>
+   </div>
+<script>
+
+const buttons = document.querySelectorAll(".dropdown-btn");
+
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+
+        const content = button.nextElementSibling;
+
+        content.classList.toggle("active");
+    });
+});
+const buttonsmll = document.querySelectorAll(".dropdown-btnsmll");
+
+buttonsmll.forEach(button => {
+    button.addEventListener("click", () => {
+
+        const content = button.nextElementSibling;
+
+        content.classList.toggle("active");
+    });
+});
+
+</script>
+</body>
+</html>

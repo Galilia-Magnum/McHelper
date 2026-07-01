@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Log-in</title>
+<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="../js/JAVA.js"></script>
+</head>
+<body>
+<div class="auth-container" id="loginPage">
+    <div class="auth-card">
+        <h1>MC Helper</h1>
+        <p>Manager Access Portal</p>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="password" id="loginPassword" placeholder="Password">
+		<button onclick="login()">Login</button>
+        <p>
+            Geen account?
+            <a href="Signup.html"><span onclick="showSignup()" style="cursor:pointer;color:#a67d43;">
+                Maak account
+            </span></a>
+        </p>
+
+    </div>
+</div>
+</body>
+</html>
