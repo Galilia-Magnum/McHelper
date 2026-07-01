@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Signup</title>
+<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="../js/JAVA.js"></script>
+</head>
+<body>
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <h1>Maak Account</h1>
+        <p>MC Helper</p>
+
+        <input type="text" id="signupUsername" placeholder="Username">
+
+        <input type="email" id="signupEmail" placeholder="Email">
+
+        <input type="password" id="signupPassword" placeholder="Password">
+
+        <select id="signupRole">
+            <option value=""></option>
+            <option value="crew">Crew</option>
+            <option value="trainer">Crew-Trainer</option>
+            <option value="manager">Manager</option>
+        </select>
+
+        <button onclick="signup()">Maak Account</button>
+
+        <div class="switch-text">
+            	Heb je al een account?
+            <span onclick="showLogin()"><a href="Log in.html">Login</a></span>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
